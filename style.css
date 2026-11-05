@@ -25,6 +25,16 @@ body {
     color: var(--dark);
     background: var(--background);
     line-height: 1.7;
+ 
+  background: #ffffff url("assets/imagens/fundo-walppaper.png") no-repeat center center fixed;
+  background-size: cover;
+  
+}
+main{
+    width: 85%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 0px 15px 0px 15px;
 }
 
 h1, h2, h3 {
@@ -56,6 +66,7 @@ img, video {
     top: 0;
     z-index: 100;
     box-shadow: 0 3px 15px #0000000D;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .logo {
@@ -179,6 +190,7 @@ img, video {
 .section {
     padding: 90px 10%;
     text-align: center;
+   
 }
 
 .section h2 {
@@ -286,7 +298,7 @@ img, video {
     padding: 30px;
     border-radius: 25px;
     background: white;
-    box-shadow: 0 8px 25px #00000008;
+    box-shadow: 0 8px 25px #00000069;
 }
 
 .activity.reverse .activity-text {
@@ -481,7 +493,7 @@ img, video {
 
 .gallery-grid img {
     height: 350px;
-    border-radius: 18px;
+    border-radius: 18px 0px;
     transition: .3s;
 }
 
