@@ -415,7 +415,7 @@ img, video {
 
 .video-feature {
     background: white;
-    padding: 35px;
+    padding: 10px;
     border-radius: 25px;
     margin-top: 70px;
     text-align: center;
@@ -439,7 +439,7 @@ img, video {
     overflow: hidden;
     border-radius: 14px;
     background: #111;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 .youtube-video iframe {
