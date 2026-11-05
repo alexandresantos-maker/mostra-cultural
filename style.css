@@ -453,18 +453,34 @@ img, video {
 /* GALERIA */
 
 .gallery {
-    background: white;
+     background-image: linear-gradient(to bottom, rgb(223, 255, 213), rgb(255, 255, 198));
+}
+
+
+/* Galeria de imagens */
+
+
+/* Visualização em celulares */
+@media (max-width: 768px) {
+    .gallery-grid img {
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        aspect-ratio: auto;
+        object-fit: contain;
+        object-position: center;
+    }
 }
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 25px;
     margin-top: 40px;
 }
 
 .gallery-grid img {
-    height: 240px;
+    height: 350px;
     border-radius: 18px;
     transition: .3s;
 }
